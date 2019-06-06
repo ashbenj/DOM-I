@@ -56,3 +56,30 @@ navHeader[4].textContent = siteContent['nav']['nav-item-5'];
 
 navHeader[5].textContent = siteContent['nav']['nav-item-6'];
 
+//cta---txt---img
+const header = document.querySelector('h1');
+header.textContent = siteContent['cta']['h1'];
+
+const button = document.querySelector('button');
+button.textContent = siteContent['cta']['button'];
+
+const ctaImg = document.getElementById('cta-img');
+ctaImg.setAttribute('src', siteContent['cta']['img-src']);
+
+//main content---txt---img
+
+const p = document.querySelectorAll('.text-content p');
+
+p[0].textContent = siteContent['main-content']['features-content'];
+p[1].textContent = siteContent['main-content']['about-content'];
+p[2].textContent = siteContent['main-content']['services-content'];
+p[3].textContent = siteContent['main-content']['product-content'];
+p[4].textContent = siteContent['main-content']['vision-content'];
+
+// const header4 = document.querySelectorAll('.text-content h4');
+// header.textContent = siteContent['main-content']['features-h4'];
+
+
+
+const middleImg = document.getElementById('middle-img');
+middleImg.setAttribute('src', siteContent['main-content']['middle-img-src']);
